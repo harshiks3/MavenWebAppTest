@@ -38,7 +38,7 @@ public class HomePageTest {
   public void test01_titleTest() {
 	  String pageTitle = driver.getTitle();
 	  System.out.println("Title of this page is .........." +pageTitle);
-	  Assert.assertEquals(pageTitle, "Mevan Sample WebApp");
+	  Assert.assertEquals(pageTitle, "Mevan Sample WebApp One");
 //	  Assert.assertEquals(pageTitle, "Google");
 	 
   }
